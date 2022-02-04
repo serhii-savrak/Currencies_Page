@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.main-section {
+  background-color: blanchedalmond;
+  height: 100vh;
+  display: flex;
+
+  &__fieldset {
+    margin: auto;
+    width: 80%;
+    padding: 50px 20px;
+  }
+  &__legend {
+    color: rgb(70, 9, 9);
+    font-size: 20px;
+  }
+
+  &__input {
+    display: block;
+    outline: none;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+
+    &:focus {
+      outline: solid darkblue;
+    }
+  }
+
+  &__btn {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+  }
+
+  &__exchanged-container {
+    margin-top: 20px;
+  }
+  &__exchanged-value {
+    font-size: 40px;
+    color: darkgreen;
+  }
+}

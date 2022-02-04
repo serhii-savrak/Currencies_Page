@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__pages-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.logo__title {
+  color: aqua;
+}
+
+.pages-navigation {
+  &__input-currencies-link {
+    display: flex;
+    align-items: center;
+    color: aquamarine;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+
+  &__all-currencies-link {
+    display: flex;
+    align-items: center;
+    color: bisque;
+    cursor: pointer;
+  }
+}
