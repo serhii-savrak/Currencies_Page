@@ -1,5 +1,5 @@
 import React from "react";
-import CurrencyInput from "./pages/Main/Main";
+import Main from "./pages/Main/Main";
 import { Route, Routes } from "react-router-dom";
 import Header from "./Header/Header";
 
@@ -9,9 +9,11 @@ const App = (props) => {
   return (
     <>
       <Header />
+
       <Routes>
-        <Route path="/" element={<CurrencyInput />} />
+        <Route path="/" element={<Main />} />
         <Route path="all" element={<AllRates />} />
+        <Route path="*" element={<Main />} />
       </Routes>
     </>
   );

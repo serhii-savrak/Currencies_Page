@@ -17,7 +17,7 @@ const Header = () => {
             First page
           </NavLink>
 
-          <NavLink to="/all" className="pages-navigation__all-currencies-link">
+          <NavLink to="all" className="pages-navigation__all-currencies-link">
             Second page
           </NavLink>
         </div>

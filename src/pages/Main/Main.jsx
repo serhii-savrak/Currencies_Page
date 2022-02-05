@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { getCurrencies } from "../../api/getCurrencies";
 import "./Main.scss";
 
-const CurrencyInput = () => {
+const Main = () => {
   const [currencies, setCurrencies] = useState(null);
   const currencyInput = useRef();
 
@@ -53,4 +53,4 @@ const CurrencyInput = () => {
   );
 };
 
-export default CurrencyInput;
+export default Main;
