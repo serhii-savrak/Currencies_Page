@@ -12,6 +12,8 @@ const App = (props) => {
 
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="Currencies_App" element={<Main />} />
+        <Route path="main" element={<Main />} />
         <Route path="all" element={<AllRates />} />
         <Route path="*" element={<Main />} />
       </Routes>
